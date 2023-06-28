@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8"/>
+    <title>Mi Primer Website</title>
+  <head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+
+    <div class="container-nav">
+        <nav class="navbar" role="navigation">
+            <a href="mi-primer-website.html" class="brand">Mi página web</a>
+            <ul class="nav-links">
+              <li><a href="mi-primer-website.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="mi-primer-website.html">Back</a></li>
+            </ul>
+          </nav>
+          <button class="button-menu-toggle">Menu</button>
+
+    
+    </div>
+
+
+    <div class="container">
+    <h1>Bienvenidos a mi primer Website!</h1>
+
+    <h1>Contacto</h1>
+        <p>¡Contáctanos para cualquier consulta o solicitud de información!</p>  
+            <form action="/procesar-formulario" method="POST">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+            
+                <input type="submit" value="Enviar">
+              </form> 
+    </div>
+  </body>
+</html>
